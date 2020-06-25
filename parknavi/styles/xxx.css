@@ -1,0 +1,82 @@
+body {
+  width: 850px; /*コンテンツの幅を指定*/
+  margin: 0 auto; /*中央に表示*/
+  font-family: "Avenir", "Helvetica Neue", "Helvetica", "Arial", "Hiragino Sans",
+    "ヒラギノ角ゴシック", YuGothic, "Yu Gothic", "メイリオ", Meiryo,
+    "ＭＳ Ｐゴシック", "MS PGothic";
+}
+
+img:hover {
+  opacity: 0.6; /*画像にカーソルを合わせると半透明*/
+}
+
+/*header要素*/
+header {
+  padding: 10px 25px;
+}
+
+header h1 {
+  font-size: 40px;
+}
+
+header h1 span {
+  color: red; /*タイトルの色*/
+}
+
+/*main要素*/
+main {
+  padding: 10px 25px;
+}
+.section-title {
+  color: black;
+  border-bottom: 2px solid #dee7ec;
+}
+.contents-item {
+  color: black;
+  font-size: 12px;
+  padding: 0 3px;
+}
+
+.mokuteki {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+}
+.mokuteki a {
+  margin: 2px;
+  color: #000;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.kengai {
+  width: 400px;
+  display: flex;
+}
+
+.kengai img {
+  width: 125px;
+  height: 125px;
+}
+
+.home {
+  color: whitesmoke;
+}
+
+/*footer要素*/
+footer {
+  padding: 10px 25px;
+
+  background-color: rgba(255, 255, 255, 0.3); /*背景を半透明白に定義*/
+}
+
+/*お問合せの部分*/
+footer a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+/*マルチディスプレイ対応*/
+@media screen and (max-width: 1000px) {
+}
