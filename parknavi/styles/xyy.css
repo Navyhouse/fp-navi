@@ -41,9 +41,9 @@ footer {
   padding: 10px 25px;
   background-color: rgba(255, 255, 255, 0.6); /*背景を半透明白に定義*/
 }
-/*お問合せの部分*/
-footer a {
-  text-decoration: none;
-  color: black;
-  font-size: 12px;
+/*マルチディスプレイ対応*/
+@media screen and (max-width: 800px) {
+  body {
+    width: 100%;
+  }
 }
