@@ -16,6 +16,7 @@ header {
 }
 
 header h1 {
+  font-family: "Raleway", sans-serif;
   font-size: 40px;
 }
 
@@ -23,12 +24,31 @@ header h1 span {
   color: red; /*タイトルの色*/
 }
 
+ul.menubar {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+ul.menubar a {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: dimgray;
+  font-size: 15px;
+  margin: 0 10px;
+}
+
+ul.menubar img {
+  width: 20px;
+  height: 20px;
+}
+
 /*main要素*/
 main {
   padding: 10px 25px;
 }
 .section-title {
-  color: black;
   border-bottom: 2px solid #dee7ec;
 }
 .contents-item {
@@ -37,20 +57,22 @@ main {
   padding: 0 3px;
 }
 
+/* 目的から探す */
 .mokuteki {
-  width: 400px;
   display: flex;
   flex-direction: row;
-}
-.mokuteki a {
   margin: 2px;
-  color: #000;
   text-decoration: none;
   font-size: 12px;
 }
 
+.mokuteki p {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 県外の公園 */
 .kengai {
-  width: 400px;
   display: flex;
 }
 
@@ -59,24 +81,18 @@ main {
   height: 125px;
 }
 
-.home {
-  color: whitesmoke;
-}
-
 /*footer要素*/
 footer {
   padding: 10px 25px;
-
   background-color: rgba(255, 255, 255, 0.3); /*背景を半透明白に定義*/
 }
 
-/*お問合せの部分*/
-footer a {
-  text-decoration: none;
-  color: black;
-  font-size: 12px;
-}
-
 /*マルチディスプレイ対応*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
+  .mokuteki {
+    flex-direction: column;
+  }
+  .kengai {
+    flex-direction: column;
+  }
 }
