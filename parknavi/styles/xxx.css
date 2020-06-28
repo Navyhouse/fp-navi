@@ -17,7 +17,7 @@ header {
 
 header h1 {
   font-family: "Raleway", sans-serif;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 header h1 span {
@@ -61,7 +61,6 @@ main {
 .mokuteki {
   display: flex;
   flex-direction: row;
-  margin: 2px;
   text-decoration: none;
   font-size: 12px;
 }
@@ -86,6 +85,13 @@ footer {
 @media screen and (max-width: 800px) {
   body {
     width: 100%;
+  }
+
+  ul.menubar {
+    margin: 10;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
   }
   .mokuteki {
     flex-direction: column;
