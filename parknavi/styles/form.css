@@ -1,5 +1,4 @@
 body {
-  background-image: url(images/park-3690895_1920.jpg);
   background-size: cover;
   width: 850px; /*画面幅を設定*/
   margin: 0 auto; /*全体を中央に表示*/
@@ -27,7 +26,6 @@ main {
   padding: 10px 25px;
   background-color: rgba(255, 255, 255, 0.6); /*背景を半透明白に定義*/
 }
-
 .home a {
   text-decoration: none;
   color: #000;
