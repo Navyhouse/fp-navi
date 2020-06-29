@@ -13,6 +13,7 @@ img:hover {
 /*header要素*/
 header {
   padding: 10px 25px;
+  background-color: rgba(200, 200, 200, 0.3);
 }
 
 header h1 {
@@ -64,6 +65,35 @@ main {
   text-decoration: none;
   font-size: 12px;
 }
+.mokuteki img {
+  /* 画像の角を丸くしてる */
+  border-radius: 20px;
+}
+
+.yugu {
+  flex-direction: column;
+  margin-right: 3px;
+}
+.hiroba {
+  flex-direction: column;
+  margin-right: 3px;
+}
+.parking {
+  flex-direction: column;
+  margin-right: 3px;
+}
+.aqua {
+  flex-direction: column;
+  margin-right: 3px;
+}
+.run {
+  flex-direction: column;
+  margin-right: 3px;
+}
+.tennis {
+  flex-direction: column;
+  margin-right: 3px;
+}
 
 /* 県外の公園 */
 .kengai {
@@ -78,7 +108,7 @@ main {
 /*footer要素*/
 footer {
   padding: 10px 25px;
-  background-color: rgba(255, 255, 255, 0.3); /*背景を半透明白に定義*/
+  background-color: rgba(200, 200, 200, 0.3); /*背景を半透明白に定義*/
 }
 
 /*マルチディスプレイ対応*/
@@ -94,9 +124,9 @@ footer {
     list-style-type: none;
   }
   .mokuteki {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
   .kengai {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
 }
