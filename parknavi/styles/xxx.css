@@ -118,7 +118,7 @@ footer {
   }
 
   ul.menubar {
-    margin: 10;
+    margin: 30;
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
