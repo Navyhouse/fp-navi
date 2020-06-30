@@ -105,6 +105,13 @@ main {
   height: 125px;
 }
 
+.write {
+  font-size: 15px;
+}
+.write img {
+  border-radius: 20px;
+}
+
 /*footer要素*/
 footer {
   padding: 10px 25px;
