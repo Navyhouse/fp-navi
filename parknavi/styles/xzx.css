@@ -15,9 +15,18 @@ img:hover {
 header {
   color: #000;
   padding: 10px 25px;
-  background-color: rgba(255, 255, 255, 0.6); /*背景を半透明白に定義*/
+  background-color: rgba(200, 200, 200, 0.6); /*背景を半透明白に定義*/
 }
+
+header h1 {
+  font-size: 30px;
+}
+header h1 span {
+  color: darkred;
+}
+
 .imagebar img {
+  border-radius: 10px;
   width: 50px;
   height: 50px;
 }
@@ -39,7 +48,7 @@ main {
 footer {
   color: black;
   padding: 10px 25px;
-  background-color: rgba(255, 255, 255, 0.6); /*背景を半透明白に定義*/
+  background-color: rgba(200, 200, 200, 0.6); /*背景を半透明白に定義*/
 }
 /*マルチディスプレイ対応*/
 @media screen and (max-width: 800px) {
