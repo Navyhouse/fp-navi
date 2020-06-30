@@ -3,14 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="styles/xxz.css" />
-    <title>福岡公園めぐり</title>
+    <link rel="stylesheet" type="text/css" href="styles/form.css" />
+    <title>form</title>
   </head>
 
   <body>
     <header>
-      <h1>広場が充実した公園</h1>
+      <h2>公園の記事を募集しています</h2>
       <div class="imagebar">
         <a href="index.html"
           ><img src="images/f_f_traffic_30_s128_f_traffic_30_0bg.png" alt="家"
@@ -19,6 +18,9 @@
           ><img
             src="images/f_f_traffic_40_s128_f_traffic_40_0bg.jpg"
             alt="東京タワー"
+        /></a>
+        <a href="openspace.html"
+          ><img src="images/f_f_event_9_s128_f_event_9_2bg.jpg" alt="野球"
         /></a>
         <a href="parking.html"
           ><img src="images/f_f_traffic_16_s128_f_traffic_16_0bg.jpg" alt="車"
@@ -38,29 +40,23 @@
     </header>
 
     <main>
-      <div class="aoba">
-        <h2>青葉公園</h2>
-        <p>オススメ ★★★★★</p>
-        <p>福岡県福岡市東区</p>
-        <p>P ◯◯台　有料</p>
+      <form action="#" method="post">
         <p>
-          高台の上にある広場は景色が最高。<br />
-          ボール遊びやかけっこなど楽しめます。<br />
-          駐車場から広場まではひたすら登りです。 <br />
+          ニックネーム：<br />
+          <input type="text" name="name" />
         </p>
-      </div>
 
-      <div class="uminaka">
-        <h2>海の中道海浜公園</h2>
-        <p>P 〇〇台　有料</p>
-        <p>オススメ ★★★★★</p>
-        <p>福岡県福岡市東区</p>
         <p>
-          広大な敷地の広場があるのでテントを持って<br />
-          お昼ご飯を楽しむのも楽しいです。<br />
-          広すぎるのでキャリーワゴンがあると便利です。 <br />
+          メールアドレス：<br />
+          <input type="text" name="mail" />
         </p>
-      </div>
+
+        <p>
+          記事を書く：<br />
+          <textarea name="comment" cols="60" rows="15"></textarea>
+        </p>
+        <p><input type="submit" value="送信" /></p>
+      </form>
 
       <div class="home">
         <a href="index.html"
@@ -69,9 +65,5 @@
         <a href="index.html">Home</a>
       </div>
     </main>
-
-    <footer>
-      <small> copyright 2020 studio NavyHouse All Right Reserbed. </small><br />
-    </footer>
   </body>
 </html>
