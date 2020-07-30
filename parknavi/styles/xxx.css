@@ -1,6 +1,7 @@
 body {
   width: 850px; /*コンテンツの幅を指定*/
   margin: 0 auto; /*中央に表示*/
+  background-image: url(boy-1846236_1920.jpg);
   font-family: "Avenir", "Helvetica Neue", "Helvetica", "Arial", "Hiragino Sans",
     "ヒラギノ角ゴシック", YuGothic, "Yu Gothic", "メイリオ", Meiryo,
     "ＭＳ Ｐゴシック", "MS PGothic";
@@ -13,7 +14,7 @@ img:hover {
 /*header要素*/
 header {
   padding: 10px 25px;
-  background-color: rgba(200, 200, 200, 0.3);
+  /*background-color: rgba(200, 200, 200, 0.3);*/
 }
 
 header h1 {
